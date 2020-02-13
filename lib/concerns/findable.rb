@@ -12,7 +12,7 @@ module Concerns::Findable
     else
       song = self.create(name)
     end
-    self.find_by_name(name) || self.create_by_name(name)
+
   end
   
   
