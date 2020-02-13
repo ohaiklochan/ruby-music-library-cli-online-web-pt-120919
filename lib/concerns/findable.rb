@@ -12,7 +12,6 @@ module Concerns::Findable
     else
       song = self.create(name)
     end
-
   end
   
   
