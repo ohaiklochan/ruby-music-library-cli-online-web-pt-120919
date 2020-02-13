@@ -5,6 +5,8 @@ class MusicLibraryController
     importer.import
   end
   
+  def call
+    
   
   
   
